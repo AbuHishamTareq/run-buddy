@@ -248,5 +248,21 @@ section {
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
-    color: #FFF;
+    color: #FFF;  
+}
+
+.contact-info h3 {
+    color: #FCE138;
+    font-size: 32px;
+}
+
+.contact-info address, .contact-info p {
+    margin: 10px 0;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.7;
+}
+
+.contact-info address a {
+    color: #FCE138;
 }
