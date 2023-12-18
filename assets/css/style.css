@@ -123,3 +123,24 @@ section {
     border: none;
     font-size: 16px;
 }
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    display: inline-block;
+    color: #024E76;
+    font-size: 55px;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid #FCE138;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: #39A6B2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
