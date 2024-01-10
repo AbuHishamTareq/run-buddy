@@ -51,20 +51,21 @@ header nav ul li a {
 /* APPLY STYLES TO <footer> */
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 40px 35px;
     background-color: #FCE138;
     width: 100%;
 }
 
 footer h2 {
-    display: inline;
     color: #024E76;
     font-size: 30px;
     margin: 0;
 }
 
 footer div {
-    float: right;
     line-height: 1.5;
     text-align: right;
 }
@@ -79,23 +80,37 @@ section {
 
 /* ADD STYLE TO HERO SECTION*/
 .hero {
-    position: relative;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #FFF;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #FCE138;
 }
 
 /* ADD STYLE TO FORM */
 .hero-form {
-    position: absolute;
     border: 3px solid #024E76;
     background-color: #FCE138;
     padding: 20px;
-    width: 500px;
     color: #024E76;
-    bottom: 120px;
-    right: 140px;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form h3 {
