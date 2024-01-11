@@ -272,6 +272,17 @@ section {
     text-align: right;
 }
 
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
 .contact {
     background-color: #024E76;
 }
@@ -302,13 +313,34 @@ section {
 .contact-info address,
 .contact-info p {
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     line-height: 1.7;
 }
 
 .contact-info address a {
     color: #FCE138;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #024E76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024E76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #FCE138;
+    color: #024E76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 .page-title {
